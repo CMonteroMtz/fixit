@@ -1,5 +1,7 @@
 import './Header.scss';
 import MenuIcon from '@mui/icons-material/Menu';
+import Navbar from './Navbar/Navbar';
+import menuOptions from './menu-data';
 
 const Header = () => {
   return (
@@ -12,6 +14,12 @@ const Header = () => {
       </div>
       <div className="desktop-version">
         <span className="header-brand">Fixit</span>
+        <Navbar menu={menuOptions}/>
+        {/* {
+          menuOptions.map(option => (
+            <li>{option.title}</li>
+          ))
+        } */}
       </div>
     </header>
   );
