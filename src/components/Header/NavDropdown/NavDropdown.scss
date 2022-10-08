@@ -1,0 +1,15 @@
+.nav-dropdown {
+  background-color: #960e29;
+  position: absolute;
+  top: 100%;
+  left: 0;
+
+  .menu-option {
+    padding: 10px;
+  }
+
+  .menu-option:hover {
+    background-color: #dc143c;;
+  }
+
+}

@@ -1,9 +1,17 @@
 .nav-item {
+  height: 100%;
+  display: flex;
+  width: 100%;
+
   button {
     background-color: transparent;
     border: none;
     font-size: 16px;
     text-transform: uppercase;
     color: #fff;
+    cursor: pointer;
+    width: 100%;
+    white-space: nowrap;
+    text-align: left;
   }
 }

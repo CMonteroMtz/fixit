@@ -1,11 +1,24 @@
+nav {
+  height: 100%;
+  margin: 0 20px;
+}
+
 .menu {
   display: flex;
+  height: 100%;
 }
 
 .menu-option {
+  position: relative;
   color: #fff;
   padding: 0 20px;
   text-transform: uppercase;
   display: flex;
   align-items: center;
+  height: 100%;
+  cursor: pointer;
+}
+
+.menu-option:hover{
+  background-color: #960e29;
 }
