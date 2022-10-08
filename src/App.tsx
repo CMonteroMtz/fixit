@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './components/Header/Header';
+import Playground from './playground/Playground';
 
 const App = () => {
   return (

@@ -15,11 +15,6 @@ const Header = () => {
       <div className="desktop-version">
         <span className="header-brand">Fixit</span>
         <Navbar menu={menuOptions}/>
-        {/* {
-          menuOptions.map(option => (
-            <li>{option.title}</li>
-          ))
-        } */}
       </div>
     </header>
   );

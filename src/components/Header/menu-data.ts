@@ -1,6 +1,6 @@
-import { MenuOption } from "./HeaderTypes";
+import { MenuItem } from "./HeaderTypes";
 
-const menuOptions: MenuOption[] = [
+const menuOptions: MenuItem[] = [
   {
     id: '1',
     title: 'Professional Directory'
