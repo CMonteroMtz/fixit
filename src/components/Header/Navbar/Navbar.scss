@@ -22,3 +22,35 @@ nav {
 .menu-option:hover{
   background-color: #960e29;
 }
+
+
+.div-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.req-button {
+  border-radius: 25px;
+  border: none;
+  padding: 10px;
+}
+
+.right-section {
+  width: 220px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  color:#FFF;
+}
+
+.login {
+  display: flex;
+  font-size:large;
+}
+
+.login a{
+  display: flex;
+  color:#FFF !important;
+  text-decoration: none !important;
+}

@@ -33,6 +33,8 @@ header {
 
 .desktop-version {
   display: none;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 @media (min-width: #{$large}) {
