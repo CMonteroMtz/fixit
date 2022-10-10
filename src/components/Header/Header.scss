@@ -5,10 +5,11 @@ $large: 1180px;
 header {
   background-color: $main-color;
   height: 68px;
-  padding: 0 20px;
+  position: relative;
 }
 
 .mobile-version {
+  padding: 0 20px;
   display: flex;
   height: 100%;
   justify-content: space-between;
